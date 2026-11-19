@@ -1,0 +1,272 @@
+[
+  {
+    "Method": "Dec-PINC-V2X",
+    "Regime": "clean",
+    "RMSE": 8.942972183227539,
+    "MAE": 5.3725810050964355,
+    "MAPE": 43.14518356323242,
+    "PhysViolRate": 0.013936291240045506,
+    "CtrlStabCost": 0.5172575116157532
+  },
+  {
+    "Method": "Persistence (LOCF)",
+    "Regime": "clean",
+    "RMSE": 8.093194007873535,
+    "MAE": 4.023748397827148,
+    "MAPE": 23.222896575927734,
+    "PhysViolRate": 0.028725824800910123,
+    "CtrlStabCost": 0.34914225339889526
+  },
+  {
+    "Method": "Ridge",
+    "Regime": "clean",
+    "RMSE": 7.812960648427251,
+    "MAE": 4.570125109635098,
+    "MAPE": 34.99394959584023,
+    "PhysViolRate": 0.011945392491467578,
+    "CtrlStabCost": 0.3281037809331629
+  },
+  {
+    "Method": "GBM (LightGBM)",
+    "Regime": "clean",
+    "RMSE": 7.862356340037038,
+    "MAE": 4.828018316590114,
+    "MAPE": 32.86088207905148,
+    "PhysViolRate": 0.01877133105802048,
+    "CtrlStabCost": 0.3139490727404708
+  },
+  {
+    "Method": "Centralized NN (no physics)",
+    "Regime": "clean",
+    "RMSE": 7.427789688110352,
+    "MAE": 4.796177864074707,
+    "MAPE": 40.83106231689453,
+    "PhysViolRate": 0.017064846416382253,
+    "CtrlStabCost": 0.3252429962158203
+  },
+  {
+    "Method": "Decentralized NN (no physics)",
+    "Regime": "clean",
+    "RMSE": 7.589590072631836,
+    "MAE": 4.768100738525391,
+    "MAPE": 34.66095733642578,
+    "PhysViolRate": 0.00881683731513083,
+    "CtrlStabCost": 0.453999787569046
+  },
+  {
+    "Method": "Dec-PINC-V2X",
+    "Regime": "drop30",
+    "RMSE": 11.359228134155273,
+    "MAE": 6.749866008758545,
+    "MAPE": 58.182926177978516,
+    "PhysViolRate": 0.04692832764505119,
+    "CtrlStabCost": 0.4998669922351837
+  },
+  {
+    "Method": "Persistence (LOCF)",
+    "Regime": "drop30",
+    "RMSE": 11.295631408691406,
+    "MAE": 5.778725624084473,
+    "MAPE": 39.55012893676758,
+    "PhysViolRate": 0.09015927189988623,
+    "CtrlStabCost": 0.37442612648010254
+  },
+  {
+    "Method": "Ridge",
+    "Regime": "drop30",
+    "RMSE": 10.489158475485922,
+    "MAE": 6.085118619006382,
+    "MAPE": 48.92110514863718,
+    "PhysViolRate": 0.06854379977246872,
+    "CtrlStabCost": 0.34345089581803606
+  },
+  {
+    "Method": "GBM (LightGBM)",
+    "Regime": "drop30",
+    "RMSE": 10.342740682440903,
+    "MAE": 6.241042022692377,
+    "MAPE": 47.52328162786783,
+    "PhysViolRate": 0.06569965870307168,
+    "CtrlStabCost": 0.3344704910207367
+  },
+  {
+    "Method": "Centralized NN (no physics)",
+    "Regime": "drop30",
+    "RMSE": 8.633075714111328,
+    "MAE": 5.701429843902588,
+    "MAPE": 51.475860595703125,
+    "PhysViolRate": 0.011092150170648464,
+    "CtrlStabCost": 0.29212772846221924
+  },
+  {
+    "Method": "Decentralized NN (no physics)",
+    "Regime": "drop30",
+    "RMSE": 9.868576049804688,
+    "MAE": 5.978360176086426,
+    "MAPE": 46.72540283203125,
+    "PhysViolRate": 0.04522184300341297,
+    "CtrlStabCost": 0.44145411252975464
+  },
+  {
+    "Method": "Dec-PINC-V2X",
+    "Regime": "drop60",
+    "RMSE": 14.464820861816406,
+    "MAE": 8.76727294921875,
+    "MAPE": 70.20624542236328,
+    "PhysViolRate": 0.0873151308304892,
+    "CtrlStabCost": 0.42033302783966064
+  },
+  {
+    "Method": "Persistence (LOCF)",
+    "Regime": "drop60",
+    "RMSE": 13.888983726501465,
+    "MAE": 7.585893154144287,
+    "MAPE": 47.08790588378906,
+    "PhysViolRate": 0.10011376564277588,
+    "CtrlStabCost": 0.37771207094192505
+  },
+  {
+    "Method": "Ridge",
+    "Regime": "drop60",
+    "RMSE": 12.789738874180014,
+    "MAE": 7.65133886901678,
+    "MAPE": 55.42337581253851,
+    "PhysViolRate": 0.08390216154721274,
+    "CtrlStabCost": 0.33999927474187525
+  },
+  {
+    "Method": "GBM (LightGBM)",
+    "Regime": "drop60",
+    "RMSE": 12.444961880803959,
+    "MAE": 7.7573745921236235,
+    "MAPE": 54.40135057545164,
+    "PhysViolRate": 0.07224118316268487,
+    "CtrlStabCost": 0.3419810626266791
+  },
+  {
+    "Method": "Centralized NN (no physics)",
+    "Regime": "drop60",
+    "RMSE": 10.203027725219727,
+    "MAE": 6.8462677001953125,
+    "MAPE": 54.16804504394531,
+    "PhysViolRate": 0.01877133105802048,
+    "CtrlStabCost": 0.254123717546463
+  },
+  {
+    "Method": "Decentralized NN (no physics)",
+    "Regime": "drop60",
+    "RMSE": 12.063714027404785,
+    "MAE": 7.418798446655273,
+    "MAPE": 52.82870101928711,
+    "PhysViolRate": 0.056598407281001135,
+    "CtrlStabCost": 0.4315808117389679
+  },
+  {
+    "Method": "Dec-PINC-V2X",
+    "Regime": "high_latency",
+    "RMSE": 15.052230834960938,
+    "MAE": 9.566911697387695,
+    "MAPE": 82.20735931396484,
+    "PhysViolRate": 0.05091012514220705,
+    "CtrlStabCost": 1.301911473274231
+  },
+  {
+    "Method": "Persistence (LOCF)",
+    "Regime": "high_latency",
+    "RMSE": 15.372130393981934,
+    "MAE": 8.88637638092041,
+    "MAPE": 61.661415100097656,
+    "PhysViolRate": 0.09670079635949944,
+    "CtrlStabCost": 1.4587329626083374
+  },
+  {
+    "Method": "Ridge",
+    "Regime": "high_latency",
+    "RMSE": 14.28382654516222,
+    "MAE": 8.833442443616027,
+    "MAPE": 68.21570167022088,
+    "PhysViolRate": 0.08020477815699659,
+    "CtrlStabCost": 1.3044731244404513
+  },
+  {
+    "Method": "GBM (LightGBM)",
+    "Regime": "high_latency",
+    "RMSE": 13.934660335172676,
+    "MAE": 8.892861496390116,
+    "MAPE": 67.73218870690019,
+    "PhysViolRate": 0.07764505119453925,
+    "CtrlStabCost": 1.241642784543284
+  },
+  {
+    "Method": "Centralized NN (no physics)",
+    "Regime": "high_latency",
+    "RMSE": 12.196700096130371,
+    "MAE": 8.236176490783691,
+    "MAPE": 65.34710693359375,
+    "PhysViolRate": 0.021899886234357225,
+    "CtrlStabCost": 0.7950153350830078
+  },
+  {
+    "Method": "Decentralized NN (no physics)",
+    "Regime": "high_latency",
+    "RMSE": 13.884455680847168,
+    "MAE": 8.843066215515137,
+    "MAPE": 66.29275512695312,
+    "PhysViolRate": 0.038680318543799774,
+    "CtrlStabCost": 1.629480004310608
+  },
+  {
+    "Method": "Dec-PINC-V2X",
+    "Regime": "spoofing",
+    "RMSE": 12.995208740234375,
+    "MAE": 7.592726707458496,
+    "MAPE": 70.61943054199219,
+    "PhysViolRate": 0.11803185437997725,
+    "CtrlStabCost": 0.4471457600593567
+  },
+  {
+    "Method": "Persistence (LOCF)",
+    "Regime": "spoofing",
+    "RMSE": 20.095129013061523,
+    "MAE": 10.467357635498047,
+    "MAPE": 57.76028060913086,
+    "PhysViolRate": 0.24971558589306028,
+    "CtrlStabCost": 0.18902556598186493
+  },
+  {
+    "Method": "Ridge",
+    "Regime": "spoofing",
+    "RMSE": 17.334432198952115,
+    "MAE": 9.75013119924294,
+    "MAPE": 64.79977239859528,
+    "PhysViolRate": 0.23094425483503983,
+    "CtrlStabCost": 0.18436939837773186
+  },
+  {
+    "Method": "GBM (LightGBM)",
+    "Regime": "spoofing",
+    "RMSE": 11.360351583222693,
+    "MAE": 6.674542327502604,
+    "MAPE": 53.75802181927006,
+    "PhysViolRate": 0.11831626848691695,
+    "CtrlStabCost": 0.2817784973193228
+  },
+  {
+    "Method": "Centralized NN (no physics)",
+    "Regime": "spoofing",
+    "RMSE": 10.995843887329102,
+    "MAE": 7.677056789398193,
+    "MAPE": 66.9502944946289,
+    "PhysViolRate": 0.01877133105802048,
+    "CtrlStabCost": 0.2597884237766266
+  },
+  {
+    "Method": "Decentralized NN (no physics)",
+    "Regime": "spoofing",
+    "RMSE": 11.186552047729492,
+    "MAE": 7.0392608642578125,
+    "MAPE": 52.228538513183594,
+    "PhysViolRate": 0.16780432309442547,
+    "CtrlStabCost": 0.3421553075313568
+  }
+]

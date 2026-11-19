@@ -1,0 +1,11 @@
+seed: 1337
+free_flow_mph: 70.0
+regimes: [clean, drop30, drop60, high_latency, spoofing]
+guard:
+  target_fpr: 0.05
+hmi:
+  crit_high: 0.55
+  load_cap: 2.0
+  cognitive_halflife: 12.0
+figures:
+  packet_loss_sweep: [0, 10, 30, 50, 70]

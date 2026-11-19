@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# cached raw API pulls (reproducible via src/data/ingest.py); keep manifest + processed
+data/raw/
+# large processed tensor is regenerable; keep it out of VCS
+data/processed/*.npz
+
+# vector figures regenerable; keep PNGs
+results/figures/*.pdf
+results/figures/*.svg

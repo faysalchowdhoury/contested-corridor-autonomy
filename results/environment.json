@@ -1,0 +1,9 @@
+{
+  "python": "3.12.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.5",
+  "torch": "2.15.0+cpu",
+  "lightgbm": "4.7.0",
+  "sklearn": "1.9.1",
+  "pandas": "3.1.1"
+}

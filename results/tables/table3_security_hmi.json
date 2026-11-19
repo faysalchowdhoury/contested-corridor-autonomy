@@ -1,0 +1,26 @@
+[
+  {
+    "Metric": "Anomaly AUROC",
+    "Value": 0.9540670006163782
+  },
+  {
+    "Metric": "Anomaly F1",
+    "Value": 0.7081922816519973
+  },
+  {
+    "Metric": "Detection delay (steps)",
+    "Value": 0.0
+  },
+  {
+    "Metric": "Operator alert-volume reduction (%)",
+    "Value": 35.13513513513513
+  },
+  {
+    "Metric": "High-criticality recall (%)",
+    "Value": 99.10614525139665
+  },
+  {
+    "Metric": "Missed critical escalation rate (%)",
+    "Value": 0.893854748603351
+  }
+]

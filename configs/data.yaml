@@ -1,0 +1,32 @@
+# Real public data configuration (Great Britain, keyless sources).
+window:
+  start: "2024-06-01"
+  end: "2024-07-31"          # ~61 days; aligned to 30-min cadence
+cadence_min: 30
+
+# Corridor nodes: 8 CONSECUTIVE active M25 MIDAS loop-detectors on one carriageway
+# (direction B, chainage 4052->4087), a continuous ~2.2-mile physical stretch so that
+# inter-node flow conservation holds. Lat/lon are the real site coordinates.
+sites:
+  - {id: "10607", name: "M25/4052B", lat: 51.4561, lon: 0.2471}
+  - {id: "5524",  name: "M25/4059B", lat: 51.4524, lon: 0.2412}
+  - {id: "2317",  name: "M25/4062B", lat: 51.4492, lon: 0.2365}
+  - {id: "2604",  name: "M25/4068B", lat: 51.4439, lon: 0.2369}
+  - {id: "2961",  name: "M25/4072B", lat: 51.4406, lon: 0.2385}
+  - {id: "1134",  name: "M25/4083B", lat: 51.4305, lon: 0.2391}
+
+# Corridor edges: directed chain along the carriageway (a -> b means a is upstream).
+edges: [[0,1],[1,2],[2,3],[3,4],[4,5]]
+
+grid:
+  resource_id: "f6d02c0f-957b-48cb-82ee-09003f2ba759"   # NESO historic demand 2024
+
+splits:                      # chronological, zero look-ahead
+  train: 0.6
+  val: 0.2
+  test: 0.2
+
+paths:
+  raw: "data/raw"
+  processed: "data/processed"
+  manifest: "data/manifest.json"

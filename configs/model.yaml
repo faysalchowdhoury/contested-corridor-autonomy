@@ -1,0 +1,15 @@
+dec_pinc:
+  hidden: 48
+  gru_layers: 1
+  lr: 0.003
+  epochs_a: 60        # Stage A: data-driven warm start
+  epochs_b: 60        # Stage B: physics-residual enforcement
+  epochs_c: 40        # Stage C: contested-dropout fine-tuning
+  lambda_flow: 0.1    # traffic conservation weight
+  lambda_grid: 0.1    # coupled load-balance weight
+  lambda_smooth: 0.05 # control-stability weight
+  comm_dropout: 0.3   # neighbour-message dropout (Stage C)
+baselines:
+  ridge_alpha: 1.0
+  gbm: {n_estimators: 300, learning_rate: 0.05, num_leaves: 31, min_child_samples: 40}
+  centralized_hidden: 48

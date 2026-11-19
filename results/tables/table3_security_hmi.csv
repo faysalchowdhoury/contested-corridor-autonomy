@@ -1,0 +1,7 @@
+Metric,Value
+Anomaly AUROC,0.9540670006163782
+Anomaly F1,0.7081922816519973
+Detection delay (steps),0.0
+Operator alert-volume reduction (%),35.13513513513513
+High-criticality recall (%),99.10614525139665
+Missed critical escalation rate (%),0.893854748603351
